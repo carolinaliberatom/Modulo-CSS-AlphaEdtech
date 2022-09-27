@@ -1,0 +1,54 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* NAVIGATION CONTROLS */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+  li {
+    float: left;
+  }
+
+  #login {
+    float: right;
+    
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+h1 {
+    color: chocolate;
+}
+
+body {
+    background-image: url(/AULA1-CSS/assets/imagens/cool-background.png);
+}
+
+#img1 {
+    width: 40%;
+    filter: blur(1px);
+}
+
+p {
+    border-style: dotted;
+    border-color: brown;
+    border-radius: 5px;
+}
