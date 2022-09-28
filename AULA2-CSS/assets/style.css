@@ -1,0 +1,72 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+/* Header */
+
+h1 {
+    text-align: center;
+}
+
+#torta {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: orange
+}
+
+a:active {
+    color: orange;
+}
+
+h1 > a:hover {
+    color: red;
+}
+
+/* highlights do texto */
+
+h2 {
+    background-color: #f3f3f3;
+    text-align: center;
+}
+
+h3 {
+    text-transform: uppercase;
+    
+}
+
+#massa ul li span{
+    color: red;  
+}
+
+#doce_de_maca li > span {
+    color: blue;
+}
+
+#creme span {
+    color: green;
+}
+
+#formulario {
+    text-align: center;
+}
+
+input[type="text"] {
+    border: 1px solid #c53939;
+    border-radius: 3px;
+}
+
+input[type="email"] {
+    border: 1px solid #c53939; 
+    border-style: dashed;
+    
+}
+
+input[type="submit"] {
+    color: orange;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
