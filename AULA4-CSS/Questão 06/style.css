@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    background: #f3f3f3;
+    border: 1px solid #e7e7e7;
+}
+
+nav > ul > li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav > ul > li > a {
+    display: block;
+    text-decoration: none;
+    color: #666;
+    text-align: center;
+    padding: 14px 14px;
+    width: 5vw;
+
+}
+
+nav > ul > li > a:hover {
+    background: #e7e7e7;
+}
+
+div {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+#visible {
+    overflow: visible;
+    background-color: green;
+}
+
+#hidden {
+    overflow: hidden;
+    background-color: chocolate;
+}
+
+#scroll {
+    overflow: scroll;
+    background-color: green;
+}
+
+#auto {
+    overflow: auto;
+    background-color: blue;
+}

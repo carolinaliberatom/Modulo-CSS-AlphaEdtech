@@ -1,0 +1,56 @@
+/* Static position */
+
+#container1 {
+    position: static;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+#container2 {
+    position: static;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: orange;
+}
+
+#container3 {
+    position: static;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+#container4 {
+    position: relative;
+    left: 100px;
+    top: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+#container5 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+#container6 {
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+#container7 {
+    position: fixed;
+    left: 75px;
+    top: 775px;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
