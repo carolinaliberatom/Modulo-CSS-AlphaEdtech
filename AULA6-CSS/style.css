@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@font-face {
+    font-family: "Play";
+    src: url(assets/Play-Regular.ttf);
+}
+
+p {
+    color: darkgray;
+    text-align: justify;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+    color: black;
+    font-size: 16px;
+    font-family: 'Play', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+ol li{
+    float: left;
+    padding-right: 25px;
+    padding-bottom: 30px;
+}
+
+caption {
+    font-size: 17px;
+    padding: 6px;
+    
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+table, caption {
+    text-align: center;
+    width: 550px; 
+    border: 2px solid black;
+}
+
+caption {
+    border-bottom: 0px solid;
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0,);
+}
+
+thead th {
+    background-color: lightgray;
+}
