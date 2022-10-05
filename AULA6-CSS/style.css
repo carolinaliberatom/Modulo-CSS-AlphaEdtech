@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 @font-face {
@@ -10,34 +15,39 @@ p {
     text-align: justify;
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
+    margin: 12px;
 }
 
 h1, h2 {
     color: black;
     font-size: 16px;
     font-family: 'Play', sans-serif;
+    margin: 12px;
 }
 
 h1 {
     text-align: center;
 }
+ol {
+    margin-left: 30px;
+}
 
 ol li{
     float: left;
-    padding-right: 25px;
-    padding-bottom: 30px;
+    width: 110px;
 }
 
 caption {
     font-size: 17px;
     padding: 6px;
+    border-bottom: 0px solid;
     
 }
 
 table {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 table, caption {
@@ -45,11 +55,6 @@ table, caption {
     width: 550px; 
     border: 2px solid black;
 }
-
-caption {
-    border-bottom: 0px solid;
-}
-
 
 tbody tr:nth-child(even) {
     background-color: rgba(0, 0, 0, 0.05);
