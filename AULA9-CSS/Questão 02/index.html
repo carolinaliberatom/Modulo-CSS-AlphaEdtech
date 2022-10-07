@@ -7,9 +7,7 @@
     <title>Pompeo</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    
-    <header>
+<body>    <header>
         <h1 class="logo">Pompeo</h1>
         <!-- <nav>
             <ul>
@@ -19,34 +17,45 @@
                 <li><a href="#">CONTACT</a></li>
             </ul>
         </nav> -->
-        <a class="button-cart" href="#">
-            <img src="https://assets.website-files.com/5ba96977bf120e1b45986c06/5bbfa9a53c082260a48d15ef_shoping%20cart.svg" alt="">
-            <p>Cart</p>
-        </a>
-        <div class="tracinhos"></div>
+        <div class="button-cart">
+            <a class="link-cart" href="#">
+                <img class="cart" src="https://assets.website-files.com/5ba96977bf120e1b45986c06/5bbfa9a53c082260a48d15ef_shoping%20cart.svg" alt="">
+                <p>Cart</p>
+            </a> 
+        </div>
+
+        <div class="container-traces">
+            <img class="traces" src="media/menu.png" alt="">
+        </div>
     </header>
     <main>
 
         <section class="flex-container-initial-banner">
             <div class="title-initial-banner">
-                <h1>POMPEO POTTERY</h1>
-                <h2>Unique Porcelain &
-                    Stone Colletion
-                </h2>
-                <p>Unique & modern potter</p>
+                <div class="title">
+                    <h1>POMPEO POTTERY</h1>
+                </div>
+                <div class="title">
+                    <h2>Unique Porcelain <span>&</span>
+                        Stone Colletion
+                    </h2>
+                </div>
+                <div class="text">
+                    <p>Unique & modern pottery made by <br> our master in porcelain & stones</p>
+                </div>
+                <div class="container-button-banner">
+                    <button class="button-banner">SHOP COLLECTION</button>
+                </div>
             </div>
             <figure>
                 <img src="https://assets.website-files.com/5ba96977bf120e1b45986c06/5e602d43ad635f0fe2d06a05_Untitled-2d2%20(2).png" alt="">
             </figure>
-            <div class="button-banner">
-                <button></button>
-            </div>
         </section>
 
         <section class="flex-container-categories">
             <article class="title" id="title-categories">
                 <h1>PRODUCT CATEGORIES</h1>
-                <h2>Porcelain & Pottery</h2>
+                <h2>Porcelain <span>&</span> Pottery</h2>
             </article>
             <article class="forms-categories">
                 <div class="elipse"></div>
@@ -74,13 +83,12 @@
                     <img src="" alt="">
                 </figure>
                 <div class="description-featured-product">
-                    <h4>Gold & Black Pottery</h4>
+                    <h4>Gold <span>&</span> Black Pottery</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eveniet id quod recusandae at eos nostrum maxime? Repellat amet quis explicabo dolor facere unde, fuga provident culpa mollitia pariatur ex!</p>
                     <a href="#">View Details</a>
                 </div>
 
             </article>
-            
             <article class="container-featured-product">
 
                 <figure class="img-featured-product">
@@ -100,11 +108,10 @@
 
             <article class="title" #title-products>
                 <h1>PRODUCT CATEGORIES</h1>
-                <h2>Porcelain & Pottery</h2>
+                <h2>Porcelain <span>&</span> Pottery</h2>
             </article>
 
             <article class="container-products">
-                
                 <div class="box-products">
                     <figure class="img-product">
                         <img src="" alt="">
