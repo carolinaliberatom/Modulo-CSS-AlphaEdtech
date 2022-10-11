@@ -6,236 +6,298 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pompeo</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500&family=Pacifico&family=Playfair+Display&family=Poppins:wght@100;200;400;500;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://assets.website-files.com/5ba96977bf120e1b45986c06/5bbb630486f1ae3d11491e16_Pompeo-32.jpg" type="image/x-icon">
+    
 </head>
-<body>    <header>
-        <h1 class="logo">Pompeo</h1>
-        <!-- <nav>
+<body>    
+    <header>
+        <div class="container-logo">
+            <a class="link-logo" href="http://127.0.0.1:5500/Quest%C3%A3o%2002/#">
+                <h1 class="logo">Pompeo</h1>
+            </a>
+        </div>
+        <nav>
             <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">SHOP</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a class="home" href="http://127.0.0.1:5500/Quest%C3%A3o%2002/index.html">HOME</a></li>
+                <li><a class="hover" href="#flex-container-product-categories">ABOUT</a></li>
+                <li><a class="hover" href="#flex-container-products">SHOP</a></li>
+                <li><a class="hover" href="#container-contact-form">CONTACT</a></li>
             </ul>
-        </nav> -->
+        </nav>
         <div class="button-cart">
             <a class="link-cart" href="#">
                 <img class="cart" src="https://assets.website-files.com/5ba96977bf120e1b45986c06/5bbfa9a53c082260a48d15ef_shoping%20cart.svg" alt="">
                 <p>Cart</p>
             </a> 
         </div>
-
-        <div class="container-traces">
-            <img class="traces" src="media/menu.png" alt="">
-        </div>
     </header>
     <main>
 
-        <section class="flex-container-initial-banner">
-            <div class="title-initial-banner">
-                <div class="title">
-                    <h1>POMPEO POTTERY</h1>
+        <section class="flex-container" id="flex-container-initial-banner">
+            <div class="title-container" id="title-container-initial-banner">
+                <div class="title-red" id="title-red-initial-banner">
+                    <h2>POMPEO POTTERY</h2>
                 </div>
-                <div class="title">
-                    <h2>Unique Porcelain <span>&</span>
+                <div class="title-big" id="title-big-initial-banner">
+                    <h3 id="h3-initial-banner">Unique Porcelain <span>&</span>
                         Stone Colletion
-                    </h2>
+                    </h3>
                 </div>
                 <div class="text">
-                    <p>Unique & modern pottery made by <br> our master in porcelain & stones</p>
+                    <p class="text-initial-banner">Unique & modern pottery made by our master in porcelain & stones</p>
                 </div>
-                <div class="container-button-banner">
-                    <button class="button-banner">SHOP COLLECTION</button>
+                <div class="container-button">
+                    <a class="button" href="#">SHOP COLLECTION</a>
                 </div>
             </div>
-            <figure>
-                <img src="https://assets.website-files.com/5ba96977bf120e1b45986c06/5e602d43ad635f0fe2d06a05_Untitled-2d2%20(2).png" alt="">
-            </figure>
         </section>
 
-        <section class="flex-container-categories">
-            <article class="title" id="title-categories">
-                <h1>PRODUCT CATEGORIES</h1>
-                <h2>Porcelain <span>&</span> Pottery</h2>
-            </article>
-            <article class="forms-categories">
-                <div class="elipse"></div>
-                <div class="elipse"></div>
-                <div class="elipse"></div>
-            </article>
-            <article class="description-categories">
+        <section class="flex-container" id="flex-container-product-categories">
+            <div class="title-container">
+                <div class="title-red" id="title-red-product-categories">
+                    <h2>PRODUCT CATEGORIES</h2>
+                </div>
+                <div class="title-big" id="title-big-product-categories">
+                    <h3>Porcelain <span>&</span> Pottery</h3>
+                </div>
+            </div>
+            <div class="circle-categories">
+                <a href="#" class="circle-container">
+                    <div class="circle-out">
+                        <div class="circle-in">
+                            <img class="icon-circle" src="https://assets.website-files.com/5bb39a4bdeee4e1e1f49f800/5bb7874064724534dc9870d0_icons8-pottery-64.png" alt="vase">
+                            <h2 class="text-circle">VASES</h2>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="circle-container">
+                    <div class="circle-out" id="circle-orange-out">
+                        <div class="circle-in" id="circle-orange-in">
+                            <img class="icon-circle" src="https://assets.website-files.com/5bb39a4bdeee4e1e1f49f800/5bb7876aedf07b21c27e7b66_icons8-salad-bowl-64.png" alt="mugs">
+                            <h2 class="text-circle">MUGS</h2>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="circle-container">
+                    <div class="circle-out" id="circle-darkred-out">
+                        <div class="circle-in" id="circle-darkred-in">
+                            <img class="icon-circle" src="https://assets.website-files.com/5bb39a4bdeee4e1e1f49f800/5bb78d5e9e1f337308de45cf_ICON-22.png" alt="plates">
+                            <h2 class="text-circle">PLATES</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="description-categories">
                 <div class="description">
-                    <h3>Hand Grafted <br>
-                        Pottery since 1990</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur tempore quaerat accusantium ullam vero aperiam optio voluptates architecto reprehenderit, nesciunt neque. Eos autem nihil molestiae dolores optio ullam! Voluptatem, magnam?</p>
+                    <h4 class="title-description">Hand Grafted Pottery since 1990</h4>
+                    <p class="text-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur tempore quaerat accusantium ullam vero aperiam optio voluptates architecto reprehenderit, nesciunt neque. Eos autem nihil molestiae dolores optio ullam! Voluptatem, magnam?</p>
                 </div>
                 <div class="description">
-                    <h3>We Provide Premium <br>
-                        Pottery Produts</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur tempore quaerat accusantium ullam vero aperiam optio voluptates architecto reprehenderit, nesciunt neque. Eos autem nihil molestiae dolores optio ullam! Voluptatem, magnam?</p>
+                    <h4 class="title-description">We Provide Premium Pottery Produts</h4>
+                    <p class="text-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur tempore quaerat accusantium ullam vero aperiam optio voluptates architecto reprehenderit, nesciunt neque. Eos autem nihil molestiae dolores optio ullam! Voluptatem, magnam?</p>
                 </div>
-            </article>
+            </div>
         </section>
 
-        <section class="flex-container-featured-product">
-            <article class="container-featured-product">
+        <section class="flex-container" id="flex-container-featured-product">
+
+            <div class="container-featured-product">
 
                 <figure class="img-featured-product">
-                    <img src="" alt="">
+                    <img src="https://assets.website-files.com/5ba96977bf120e1b45986c06/5bb9668024337c19082edcaf_orientovase-p-500.png" alt="Vaso preto">
                 </figure>
                 <div class="description-featured-product">
-                    <h4>Gold <span>&</span> Black Pottery</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eveniet id quod recusandae at eos nostrum maxime? Repellat amet quis explicabo dolor facere unde, fuga provident culpa mollitia pariatur ex!</p>
-                    <a href="#">View Details</a>
+                    <h5 class="title-featured-product">Gold & Black Pottery</h5>
+                    <p class="text-featured-product">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eveniet id quod recusandae at eos nostrum maxime? Repellat amet quis explicabo dolor facere unde, fuga provident culpa mollitia pariatur ex!</p>
+                    <div class="link-featured-product">
+                        <a href="#">View Details</a>
+                    </div>
                 </div>
 
-            </article>
-            <article class="container-featured-product">
+            </div>
+            <div class="container-featured-product" id="last-container-featured-product">
 
-                <figure class="img-featured-product">
-                    <img src="" alt="">
+                <figure class="img-featured-product" id="container-last-img-featured-product">
+                    <img id="last-img-featured-product" src="https://assets.website-files.com/5ba96977bf120e1b45986c06/5bb381e8f20c2e1db6f8800c_blouse.png" alt="Vaso laranja">
                 </figure>
-                <div class="description-featured-product">
-                    <h4>Orange Ceramic</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eveniet id quod recusandae at eos nostrum maxime? Repellat amet quis explicabo dolor facere unde, fuga provident culpa mollitia pariatur ex!</p>
-                    <a href="#">View Details</a>
+                <div class="description-featured-product" id="last-description-featured-product">
+                    <h5 class="title-featured-product">Orange Ceramic</h5>
+                    <p class="text-featured-product">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eveniet id quod recusandae at eos nostrum maxime? Repellat amet quis explicabo dolor facere unde, fuga provident culpa mollitia pariatur ex!</p>
+                    <div class="link-featured-product">
+                        <a href="#">View Details</a>
+                    </div>
+                    
                 </div>
 
-            </article>
+            </div>
 
         </section>
 
-        <section class="flex-container-products">
+        <section class="flex-container" id="flex-container-products">
 
-            <article class="title" #title-products>
-                <h1>PRODUCT CATEGORIES</h1>
-                <h2>Porcelain <span>&</span> Pottery</h2>
-            </article>
+            <div class="title-container" id="title-products">
+                <div class="title-red" id="title-red-products">
+                    <h2>OUR ONLINE STORE</h2>
+                </div>
+                <div class="title-big" id="title-big-products">
+                    <h3>Pottery Collection</h3>
+                </div>
+                
+            </div>
 
-            <article class="container-products">
+            <div class="container-products">
                 <div class="box-products">
-                    <figure class="img-product">
-                        <img src="" alt="">
+                    <figure >
+                        <img class="img-product" src="https://assets.website-files.com/5bb39a4bdeee4e1e1f49f800/5bbbd7e1e364e913f38fed48_5bb3def89ab3aa39fda26d59_plate-1.png" alt="Prato colorido">
                     </figure>
                     <div class="name-product">
-                        <h4>Decor Plat</h4>
-                        <a href="#">$ 65.00 USD</a>
+                        <a href="#" class="link-name-product">Decor Plate</a>
+                        <h5 class="value-product">$ 65.00 USD</h5>
                     </div>
                 </div>
 
                 <div class="box-products">
-                    <figure class="img-product">
-                        <img src="" alt="">
+                    <figure>
+                        <img class="img-product" src="https://assets.website-files.com/5bb39a4bdeee4e1e1f49f800/5bbbd7f0e364e976af8fed4d_5bb3df47aa273fe65085a78f_oriento-663905-unsplash-p-1600.png" alt="">
                     </figure>
                     <div class="name-product">
-                        <h4>Mint Pottery</h4>
-                        <a href="#">$ 75.00 USD</a>
+                        <a href="#" class="link-name-product">Mint Pottery</a>
+                        <h5 class="value-product">$ 75.00 USD</h5>
                     </div>
                 </div>
 
                 <div class="box-products">
-                    <figure class="img-product">
-                        <img src="" alt="">
+                    <figure>
+                        <img class="img-product" src="https://assets.website-files.com/5bb39a4bdeee4e1e1f49f800/5bbbd7f879491efbeb9d8269_5bb3d671edf33b1f76f5aa0d_modern-essentials-792823-unsplash.png" alt="Vasos variados">
                     </figure>
                     <div class="name-product">
-                        <h4>Set Of Potterys</h4>
-                        <a href="#">$ 125.00 USD</a>
+                        <a href="#" class="link-name-product">Set Of Potterys</a>
+                        <h5 class="value-product">$ 125.00 USD</h5>
                     </div>
                 </div>
 
                 <div class="box-products">
-                    <figure class="img-product">
-                        <img src="" alt="">
+                    <figure>
+                        <img class="img-product" src="https://assets.website-files.com/5bb39a4bdeee4e1e1f49f800/5bbbd804f8cd66eab8cc490c_5bb3febae6340f5ff015e85b_blouse.png" alt="Vaso laranja">
                     </figure>
                     <div class="name-product">
-                        <h4>Orange Ceramic</h4>
-                        <a href="#">$ 55.00 USD</a>
+                        <a href="#" class="link-name-product">Orange Ceramic</a>
+                        <h5 class="value-product">$ 55.00 USD</h5>
                     </div>
                 </div>
 
                 <div class="box-products">
-                    <figure class="img-product">
-                        <img src="" alt="">
+                    <figure>
+                        <img class="img-product" src="https://assets.website-files.com/5bb39a4bdeee4e1e1f49f800/5bbbd80e7ddaf62b3e2460bb_5bb3cedbb3465c5181324caa_212-unsplash-(1).png" alt="Vaso preto">
                     </figure>
                     <div class="name-product">
-                        <h4>Dark Bowl</h4>
-                        <a href="#">$ 115.00 USD</a>
+                        <a href="#" class="link-name-product">Dark Bowl</a>
+                        <h5 class="value-product">$ 115.00 USD</h5>
                     </div>
                 </div>
 
                 <div class="box-products">
-                    <figure class="img-product">
-                        <img src="" alt="">
+                    <figure>
+                        <img class="img-product" src="https://assets.website-files.com/5bb39a4bdeee4e1e1f49f800/5bbbd819e364e903ba8fee0c_5bb3c9f370f1175d66fc5d5a_oriento-663881-unsplash.png" alt="Vaso paralelepipedo">
                     </figure>
                     <div class="name-product">
-                        <h4>Square Pottery</h4>
-                        <a href="#">$ 75.00 USD</a>
+                        <a href="#" class="link-name-product">Square Pottery</a>
+                        <h5 class="value-product">$ 75.00 USD</h5>
                     </div>
                 </div>
 
-            </article>
-
-            <article class="button-products">
-                <button></button>
-            </article>
-
+            </div>
+            <div class="flex-container-button-product">
+                <div class="container-button" id="container-button-product">
+                    <a class="button" href="#">VIEW ALL PRODUCTS</a>
+                </div>
+            </div>
+            
         </section>
 
-        <section class="flex-container-colletion-banner">
-            <div class="title-collection-banner">
-                <h1>POMPEO POTTERY</h1>
-                <h2>Ready to start shopping?</h2>
-                <p>Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Suspendisse varius enim in eros elementum.</p>
+        <section class="flex-container" id="flex-container-last-banner">
+            <div class="title-container" id="title-container-last-banner">
+                <div class="title-red" id="title-red-last-banner">
+                    <h2>POMPEO POTTERY</h2>
+                </div>
+                <h3 class="title-big" id="title-big-last-banner">Ready to start shopping?</h3>
+                <p id="text-last-banner">Lorem ipsum dolor sit amet, <a ref="#">consectetur adipiscing elit</a>. Suspendisse varius enim in eros elementum.</p>
+                <div class="flex-container-button">
+                    <div class="container-button" id="container-button-last-banner">
+                        <a class="button" href="#">NEW COLLECTION</a>
+                    </div>
+                </div>
             </div>
-            <div class="button-banner">
-                <button></button>
-            </div>
+            
         </section>
 
-        <section class="container-contact-form">
-            <figure class="icon-contacform">
-                <img src="" alt="">
-            </figure>
-            <div class="title-contact-form">
-                <h1>LATEST NEWS</h1>
-                <h2>Latest news & New updates</h2>
+        <section class="flex-container" id="container-contact-form">
+            <div class="flex-container-icon-contact-form">
+                <div class="icon-contact-form">
+                    <img src="https://assets.website-files.com/5ba96977bf120e1b45986c06/5baf7b8b7a16ad6c3bda1f4d_icons8-paper-plane-64.png" alt="">
+                </div>
             </div>
-
-        <form action="#">
-
-        </form>
-
+            
+            <div class="title-container" id="title-container-contact-form">
+                <div class="title-red" id="title-red-contact-form">
+                    <h2>LATEST NEWS</h2>
+                </div>
+                <div class="title-big" id="title-big-contact-form">
+                    <h3 id="h3-contact-form">Latest news <span>&</span> New updates</h3>
+                </div>
+            </div>
+            <div class="container-form">
+                <form action="#">
+                    <div class="border-form">
+                        <img src="https://assets.website-files.com/5ba96977bf120e1b45986c06/5bb565345d49a44eae2b3545_icons8-secured-letter-64.png" alt="">
+                        <input type="email" id="email" value="Enter your email" size="40">
+                    </div>
+                    <input type="submit" id="button" value="SUBSCRIBE">
+                    
+                    <label for="check">
+                        <input type="checkbox" id="check">
+                    Sign up for our newsletter</label>
+                </form>
+        
+            </div>
+            
         </section>
     </main>
 
     <footer>
-        <section class="title-footer">
-            <h1 class="logo">Pompeo</h1>
-            <p>I have always striven to fix beauty in wood, stone,
-                glass or pottery, that has been my creed.</p>
-        </section>
-
-        <section class="row-contact-footer">
-            <article class="contact">
-                <img class="icon-contact" src="https://assets.website-files.com/5ba96977bf120e1b45986c06/5bc61f43b6ba2a3332ee30f4_icons8-secured-letter-80%20(1).png" alt="">
-                <h5>EMAIL</h5>
-                <p>pompeopotery@gmail.com</p>
-            </article>
-
-            <article class="contact">
-                <img class="icon-contact" src="https://assets.website-files.com/5ba96977bf120e1b45986c06/5bc61fa61d93fd9e7976d4af_icons8-marker-80%20(1).png" alt="">
-                <h5>FIND</h5>
-                <p>Central Park, Manhattan
-                    New York, 1101</p>
-            </article>
-
-            <article class="contact">
-                <img class="icon-contact" src="https://assets.website-files.com/5ba96977bf120e1b45986c06/5bc61f741d93fdca4176d416_icons8-ringer-volume-80.png" alt="">
-                <h5>CALL</h5>
-                <p>+1 292 345 678</p>
-            </article>
-        </section>
-
-        <section class="bottom-footer">
+        <div class="flex-container" id="flex-container-footer">
+            <section class="title-footer">
+                <h1 class="logo" id="logo-footer">Pompeo</h1>
+                <p class="text-footer">I have always striven to fix beauty in wood, stone,
+                    glass or pottery, that has been my creed.</p>
+            </section>
+    
+            <section class="row-contact-footer">
+                <div class="contact">
+                    <img class="icon-contact" src="https://assets.website-files.com/5ba96977bf120e1b45986c06/5bc61f43b6ba2a3332ee30f4_icons8-secured-letter-80%20(1).png" alt="">
+                    <h6>EMAIL</h6>
+                    <p class="text-footer">pompeopotery@gmail.com</p>
+                </div>
+    
+                <div class="contact">
+                    <img class="icon-contact" src="https://assets.website-files.com/5ba96977bf120e1b45986c06/5bc61fa61d93fd9e7976d4af_icons8-marker-80%20(1).png" alt="">
+                    <h6>FIND</h6>
+                    <p class="text-footer">Central Park, Manhattan
+                        New York, 1101</p>
+                </div>
+    
+                <div class="contact">
+                    <img class="icon-contact" src="https://assets.website-files.com/5ba96977bf120e1b45986c06/5bc61f741d93fdca4176d416_icons8-ringer-volume-80.png" alt="">
+                    <h6>CALL</h6>
+                    <p class="text-footer">+1 292 345 678</p>
+                </div>
+            </section>
+        </div>
+        
+        <section class="flex-container" id="flex-container-copyright">
             <p>Template design by <a href="#">Dorian Hoxha</a> - <a href="#">Image License Info</a> Powered by <a href="#">Webflow</a></p>
         </section>
     </footer>
