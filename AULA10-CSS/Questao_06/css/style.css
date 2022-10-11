@@ -94,6 +94,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 100;
 }
 
 .container-logo {
@@ -247,9 +248,11 @@ li a {
     color: white;
     font-size: 1rem;
     text-align: center;
+    transition: transform 0.5s, background-color 0.4s;
 }
 
 .button:hover {
+    transform: translateY(-8%);
     background-color: black;
 }
 
@@ -460,17 +463,21 @@ li a {
 .box-products {
     padding: 25px;
     padding-right: 15px;
-    padding-left: 15px;
-    
+    padding-left: 15px; 
+}
+
+figure {
+    overflow: hidden;
 }
 
 .box-products:hover img {
-    transform: scale(1.2);
+    transform: scale(1.1);
+    filter: contrast(85%);
 }
 
 .img-product {
     width: 450px;
-    transition: scale 4s;
+    transition: transform 0.4s ease, filter 0.6s;
 }
 
 .name-product {
