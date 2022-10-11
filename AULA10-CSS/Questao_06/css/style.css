@@ -198,6 +198,8 @@ li a {
     background-repeat: no-repeat;
     padding-left: 20px;
     padding-bottom: 50px;
+    position: relative;
+    overflow: hidden;
 }
 
 #title-red-initial-banner,  #title-big-initial-banner{
@@ -231,6 +233,22 @@ li a {
     width: 40%;
 }
 
+/* -------- ANIMAÇÃO INITIAL BANNER --------- */
+
+.slide {
+    width: 100%;
+    position: absolute;
+    bottom: -400px;
+    opacity: 0;
+    animation: slide-up 2.5s forwards;
+}
+
+@keyframes slide-up 
+{
+    100% { transition:  2s;
+         bottom: 200px;
+         opacity: 1;}
+}
 
 /* -------- RED BUTTONS --------- */
 
