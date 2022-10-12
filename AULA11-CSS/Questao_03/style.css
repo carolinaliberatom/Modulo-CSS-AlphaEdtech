@@ -1,0 +1,74 @@
+* {
+    background-color: darkblue;
+}
+ .campo {
+    margin: 5%;
+ }
+
+.pacman { /* retangulo total do pacman */
+    height: 200px;
+    width: 200px;
+    margin: 25px;
+    position: relative;
+}
+
+.cabeça { /* metade da altura total */
+    background-color: red;
+    height: 100px;
+    width: 152px;
+    position: relative;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.globo_ocular, .olho {
+    position: relative;
+    border-radius: 100px;
+}
+
+.globo_ocular {
+    background: #FFF;
+    height: 50px;
+    width: 50px;
+}
+
+.olho {
+    background: #0d2bd7;
+    height: 25px;
+    width: 25px;
+    margin: 20% auto;
+    
+}
+
+.pernas {
+    height: 40px;
+    border-right: 38px solid red;
+    border-left: 38px solid red;
+    border-bottom: 40px solid darkblue;
+    display: block;
+    float: left;
+}
+
+/* ANIMATION */
+
+.campo {
+    position: absolute;
+}
+
+.pacman {
+    margin-left: 400px;
+    position: relative;
+    left: -600px;
+    animation: slide-left 3s ease infinite;
+    opacity: 0;
+}
+
+@keyframes slide-left {
+    100% {
+        left: 0;
+        opacity: 1;
+    }
+}
